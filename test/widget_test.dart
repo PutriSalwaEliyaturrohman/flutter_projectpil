@@ -104,6 +104,18 @@ final String mahasiswafk;
   mahasiswafk="baban";
   
   print(mahasiswafk);
+
+  //null safety
+  // ? ! late
+  //? digunakan dia boleh null
+  // String? jurusan ;
+  //untuk diisi nanti
+  late String jurusanns ;
+  
+  jurusanns = "Sistem Informasi";
+  //jurusan = "SI";
+  // memaksa untuk di jalankan / yakin ada datanya
+  print(jurusanns.length);
 }
 //function
   hitungNilai(){
